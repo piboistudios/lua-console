@@ -19,4 +19,4 @@ npm run build
 
 CTRL + Enter to fire the code to the back-end.
 
-![preview](https://ibb.co/qmV5yGC)
+![preview](https://i.ibb.co/tYFXmfz/image.png)
