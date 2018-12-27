@@ -1,18 +1,20 @@
-<template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+<template lang="pug">
+  b-container(fluid)
+    b-row.bg-dark
+      p.h3.text-light .NET Lua Console
+    lua-console
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
-  name: 'home',
+  name: "home",
   components: {
-    HelloWorld
+    LuaConsole: () =>
+      import(/*webpackChunkName: 'code_mirror' */
+
+      "../views/LuaConsole.vue")
   }
-}
+};
 </script>
