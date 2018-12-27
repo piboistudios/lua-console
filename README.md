@@ -15,15 +15,8 @@ npm run serve
 npm run build
 ```
 
-### Run your tests
-```
-npm run test
-```
+# Usage
 
-### Lints and fixes files
-```
-npm run lint
-```
+CTRL + Enter to fire the code to the back-end.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+[preview](https://ibb.co/qmV5yGC)
